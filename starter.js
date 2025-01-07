@@ -1,4 +1,14 @@
 // 🏦 Bank and Account System Starter File
+// Bank Class: Manages multiple accounts
+class Bank {
+    constructor() {
+        this.accounts = []; // Stores all accounts in the bank
+    }
+
+    // Add methods here:
+    // Example: createAccount(name, initialDeposit)
+    // Example: getAccount(accountName)
+}
 
 // Account Class: Represents a single user's account
 class Account {
@@ -15,16 +25,7 @@ class Account {
     // Example: checkBalance()
 }
 
-// Bank Class: Manages multiple accounts
-class Bank {
-    constructor() {
-        this.accounts = []; // Stores all accounts in the bank
-    }
 
-    // Add methods here:
-    // Example: createAccount(name, initialDeposit)
-    // Example: getAccount(accountName)
-}
 
 // Function to test bank operations
 function testBankOperations() {
